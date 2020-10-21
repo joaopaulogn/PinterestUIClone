@@ -1,0 +1,29 @@
+// Spacing area
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+// Font family
+*, button, input {
+    font-family: -apple-system, Ubuntu, Arial, sans-serif;
+}
+
+// List style
+*, li {
+    list-style: none;
+    text-decoration: none;
+}
+
+// That's define what 1rem means
+html {
+    font-size: 62.5%;
+}
+
+// That's define the box-model
+body {
+    box-sizing: border-box;
+}
